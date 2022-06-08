@@ -56,4 +56,10 @@
 .pagination .active {
   background-color: #5ab1BB;
   color: white;
+  
+}
+
+.pagination .disable {
+  background-color: #e3e7e7;
+  color: rgb(144, 140, 140);
 }

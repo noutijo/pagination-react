@@ -11,7 +11,6 @@ function App() {
         return response.json();
       })
       .then((data) => {
-        console.log(data);
         setImages(data);
       })
       .catch((err) => {
@@ -20,7 +19,7 @@ function App() {
   }, []);
 
   return (
-    <div className="tu">
+    <div>
       <Images data={images} />
     </div>
   );
